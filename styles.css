@@ -1,0 +1,61 @@
+h1 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+html {background-image: url(Medieval-knights-on-grey-background.jpeg);
+    background-repeat: repeat;
+    background-size:cover;
+}
+
+#board {
+  padding-top: 3em;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: purple;
+
+}
+
+.row {
+  clear: both;
+  margin: 0 auto;
+  width: 302px;
+}
+/* all 9 cells */
+.row > div {
+  float: left;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  line-height: 100px;
+  font-size: 7em;
+}
+
+.top {
+  border-bottom: 1px white solid;
+}
+
+.bottom {
+  border-top: 1px white solid;
+}
+
+.left {
+  border-right: 1px white solid;
+}
+
+.right {
+  border-left: 1px white solid;
+}
+
+button {
+  padding: 5px 20px;
+  border-radius: 10px;
+  background-color: yellow;
+  font-size: 12px;
+  transition: 200ms transform;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+}
